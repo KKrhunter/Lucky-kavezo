@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky - Kávéfajták</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lucky.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="./index.html">
+            Lucky
+            <img src="./img/icons/clover.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="navbar-nav">
+                <a class="nav-link" href="./index.html">Főoldal</a>
+                <a class="nav-link active" href="./kavefajtak.html">Kávéfajták</a>
+                <a class="nav-link" href="./sutemenyek.html">Sütemények</a>
+                <a class="nav-link" href="./blog.html">Blog</a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="my-4">Lucky - Kávéfajták</h1>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img src="./img/coffees/espresso_k.png" class="card-img-top" alt="Espresso">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img src="./img/coffees/americano_k.png" class="card-img-top" alt="Americano">
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#" data-toggle="modal" data-target="#cappuccinoModal">
+                    <div class="card">
+                        <img src="./img/icons/sunflower.svg" alt="" id="napiajanlat">
+                        <img src="./img/coffees/cappuccino_k.png" class="card-img-top" alt="Cappuccino">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img src="./img/coffees/latte_k.png" class="card-img-top" alt="Latte Macchiato">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte Macchiato</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cappuccino Modal -->
+    <div class="modal fade" id="cappuccinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cappuccino</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="./img/coffees/cappuccino_k.png" alt="Cappuccino" class="img-fluid">
+                            </div>
+                            <div class="col-sm-8">
+                                <h2>Cappuccino</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem soluta vitae
+                                    harum incidunt optio error non maxime earum, nihil amet accusantium facere quos
+                                    atque neque dolore quaerat adipisci repudiandae?</p>
+                                <p>Cumque quam id similique perferendis enim dolores suscipit accusamus ipsum sed
+                                    nostrum, obcaecati nihil inventore. Nemo, architecto necessitatibus earum ipsam sint
+                                    ipsa, totam veritatis id aperiam sit doloribus reprehenderit deleniti!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 offset-lg-1">
+                    <h2 class="mt-3">Kapcsolat</h2>
+                    <ul>
+                        <li><img src="./img/icons/letter.svg" alt="">Lucky Kávézó</li>
+                        <li><img src="./img/icons/email.svg" alt="">lucky@kavezo.hu</li>
+                        <li><img src="./img/icons/telephone.svg" alt="">+36-1-555-55-55</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <h2 class="mt-3">Kávé Magazin</h2>
+                    <p>Iratkozzon fel a kávé magazinunkra!</p>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="text" id="email" class="form-control" placeholder="E-mail
+                            " aria-label="E-mail" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button onclick="feliratkozas()" class="btn btn-success" type="button" id="button-addon2">Feliratkozom</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>    
+    <script src="./js/code.js"></script>
+
+</body>
+
+</html>
