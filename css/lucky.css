@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body:not(#home), .modal-body{
+    background-color: #fbefdb;
+}   
+
+/*Főoldal*/
+#home{
+    height: 100vh;
+    background-image: url(../img/homebg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro{
+    color: white;  
+    height: 100vh;     
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);    
+}
+
+.intro h1{
+    color: white;
+}
+
+/*Menü*/
+nav{
+    background-color: #1f5b25;
+}
+
+nav a:first-child img{
+    width: 40px;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: #1f5b25;
+    text-align: center;
+}
+
+.card{
+    color: #1f5b25;
+    background-color: #fff;
+    border: 1px solid #1f5b25;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #1f5b25;
+}
+
+h5{
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#napiajanlat{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;    
+}
+
+.footer{
+    background-color: #1f5b25;
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer li>img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.modal-content{
+    background-color: #eadac0;
+}
+
+.blog-img {
+    border-radius: 4px;
+    border: 1px solid #1f5b25;
+}
