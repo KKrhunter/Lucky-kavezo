@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-
 body:not(#home), .modal-body{
     background-color: #fbefdb;
+    scroll-behavior: smooth; /* Sima görgetés */
+
 }   
 
 /*Főoldal*/
@@ -18,8 +18,8 @@ body:not(#home), .modal-body{
     height: 100vh;     
 }
 
-#home .intro .col-md-8{
-    background-color: rgba(0,0,0,0.4);    
+.sotethatter {
+    background-color: rgba(0,0,0,0.6);
 }
 
 .intro h1{
@@ -28,7 +28,11 @@ body:not(#home), .modal-body{
 
 /*Menü*/
 nav{
-    background-color: #1f5b25;
+    background-color: #8c6e38;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
 nav a:first-child img{
@@ -44,24 +48,37 @@ nav a:first-child img{
 
 h1{
     font-family: 'Fredericka the Great', cursive;
-    color: #1f5b25;
+    color: #3e2522;
     text-align: center;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .card{
-    color: #1f5b25;
+    color: #3e2522;
     background-color: #fff;
-    border: 1px solid #1f5b25;
+    border: 1px solid gray;
+    transition: transform 0.5s ease;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.card img {
+    border-radius: 15px 15px 0px 0px;
 }
 
 .card:hover{
-    box-shadow: 0px 0px 5px #1f5b25;
+    border: 3px solid black;
+    transform: scale(1.1);
 }
 
 h5{
     text-align: center;
     font-variant: small-caps;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 a:hover{
@@ -76,7 +93,7 @@ a:hover{
 }
 
 .footer{
-    background-color: #1f5b25;
+    background-color: #8c6e63;
     color: white;
 }
 
@@ -90,10 +107,130 @@ footer li>img{
 }
 
 .modal-content{
-    background-color: #eadac0;
+    background-color: #ffe0b2;
 }
 
 .blog-img {
     border-radius: 4px;
     border: 1px solid #1f5b25;
 }
+
+/* valasztás néven a főoldalon a kávé és süteményes gombra vonatkozó változtatásokat értem*/
+.valasztas {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D3A376;
+    color: white;
+    font-weight: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: transorm 0.75s ease;
+    justify-content: center;
+}
+.valasztas :hover {
+    border: 3px solid black;
+    font-size: 25px;
+    transform: scale(1.15);
+}
+
+/*Logo főoldalra*/
+.logo {
+    transform: rotate(-18deg);
+    width: 65px;
+    margin-left: -15px;
+
+}
+
+/* Szülő konténer: a diveket flexbox segítségével rendezzük */
+.doboz {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Egyes dobozok stílusa */
+.box {
+    text-align: center; 
+    width: 200px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+    padding: 10px;
+}
+
+/* Gomb*/
+.btn {
+    padding: 10px 20px;
+    background-color: #8c6e38;
+    color: white; 
+    border: 1px white; 
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #8c6e38;
+    border: 3px solid white;
+}
+
+/* Navbar kiválasztás animáció*/
+.kivalasztas {
+    padding: 5px;
+    transition: color 0.75s ease;
+    font-size: 22px;
+
+}
+
+@media (max-width: 768px) {
+    .kivalasztas {
+        text-align: center;
+    }
+}
+
+    
+
+
+.nav-link {
+    transition: color 0.3s ease;
+        text-decoration: none;
+
+}
+.nav-link {
+    position: relative; /* Pseudo-element pozícionálásához szükséges */
+
+}
+/* Görbített vonal hozzáadása hover-kor */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 60px;
+    height: 5px;
+    background: linear-gradient(90deg, #3e2522, #3e2522);
+    border-radius: 500px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover-kor a görbe vonal láthatóvá válik */
+.nav-link:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.navbar-dark {
+    margin-left: 10%;
+}
+@media (max-width: 768px) {
+    .navbar-dark {
+        margin-left: 0%;
+    }
+}
+
