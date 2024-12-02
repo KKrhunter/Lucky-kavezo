@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky - A mi kis kávézónk</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/lucky.css">
 </head>
 
 <body id="home">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="./index.html">
+        <a class="navbar-brand" href="./index.html" style="font-size: 25px; font-weight: bold; padding-left: 20px;">
             Lucky
-            <img src="./img/icons/clover.svg" alt="">
+            <img src="./img/icons/clover.svg" class="logo" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,21 +22,45 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
             <div class="navbar-nav">
-                <a class="nav-link active" href="./index.html">Főoldal</a>
-                <a class="nav-link" href="./kavefajtak.html">Kávéfajták</a>
-                <a class="nav-link" href="./sutemenyek.html">Sütemények</a>
-                <a class="nav-link" href="./blog.html">Blog</a>
+                <a class="nav-link active kivalasztas" href="./index.html">Főoldal</a>
+                <a class="nav-link active kivalasztas " href="./kavefajtak.html">Kávéfajták</a>
+                <a class="nav-link active kivalasztas" href="./sutemenyek.html">Sütemények</a>
+                <a class="nav-link active kivalasztas" href="./blog.html">Blog</a>
             </div>
         </div>
     </nav>
 
+
+    <style>
+        #loading {
+            text-align: center;
+            margin: 20px 0;
+            display: none;
+        }
+    </style>
+
     <main class="container">
         <div class="row intro">
-            <div class="col-md-8 col-lg-6 align-self-center">
-                <h1 class="my-5">Lucky - A mi kis kávézónk </h1>
+            <div class="col-md-8 col-lg-8 align-self-center sotethatter" style="margin-left: -10%; border-radius: 25px 0px 35px 0px;">
+                <h1 class="my-5"><b> Lucky <img src="./img/icons/clover.svg" alt="" class="logo"> <br> A mi kis kávézónk</b></h1>
+                <center style="font-size: 22px; font-weight: bold;">
                 <p>Sok szeretettel köszöntünk a honlapon!</p>
                 <p>Ismerkedj meg kávé és sütemény kínálatunkkal.</p>
-                <img src="./img/icons/coffee-cup.svg" alt="" class="w-25 mx-auto my-5 d-block">
+                </center>
+                <div class="doboz" style="height: 250px;">
+                    <div class="box">
+                        <img src="./img/icons/coffee-cup.svg" alt="kávé" onclick="window.location.href = 'kavefajtak.html'"><br>
+                        <button class="btn" onclick="window.location.href = 'kavefajtak.html'">Kávék</button>
+                    </div>
+                    <div class="box">
+                        <img src="./img/icons/cake.png" alt="süti" onclick="window.location.href = 'sutemenyek.html'"><br>
+                        <button class="btn" onclick="window.location.href = 'sutemenyek.html'">Sütik</button>
+                    </div>
+                    <div class="box">
+                        <img src="./img/icons/blogging.png" alt="blog" onclick="window.location.href = 'blog.html'"><br>
+                        <button class="btn" onclick="window.location.href = 'blog.html'">Blog</button>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
