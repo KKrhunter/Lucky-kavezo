@@ -23,8 +23,8 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 Főoldal
 
 <p align="center" style="display: flex; justify-items: center; justify-content: center; justify-self: center; gap: 10px; height: 200px;">
-  <img src="docs/desktop_fooldal__wireframe.png" alt="Kép 1" style="height: 100%;width: 55%; object-fit: cover;">
-  <img src="docs/phone_fooldal_wireframe.png" alt="Kép 2" style="height: 100%; width: 30%; object-fit: cover;">
+  <img src="docs/desktop_fooldal__wireframe.png" alt="Kép 1" style="height: 100%;width: 55%; object-fit: cover; margin: 50px;">
+  <img src="docs/phone_fooldal_wireframe.png" alt="Kép 2" style="height: 100%; width: 30%; object-fit: cover; margin: 50px;">
 </p>
 
 
