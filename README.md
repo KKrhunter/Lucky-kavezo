@@ -14,7 +14,7 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 ---
 
 ## 🛠️ Használt eszközök
-- **Visual studio** : Az általunk preferált fejlesztői környezet
+- **Visual studio** : Az általunk preferált fejlesztői környezet.
 - **HTML5**: A weboldal alapstruktúrájához.
 - **CSS3**: A vizuális megjelenés kialakításához.
 - **JavaScript**: Interaktív elemek és dinamikus funkciók implementálásához.
