@@ -19,7 +19,7 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 - **JavaScript**: Interaktív elemek és dinamikus funkciók implementálásához.
 
 ---
-## Drótváz
+##🖥️ Drótváz
 **Főoldal**
 
 <p align="center" style="display: flex; justify-items: center; justify-content: center; justify-self: center; gap: 500px; height: 200px;">
