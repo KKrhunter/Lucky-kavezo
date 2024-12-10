@@ -1,4 +1,3 @@
-https://wireframe.cc
 # Lucky kávézó 
 
 ## 📖 Leírás
