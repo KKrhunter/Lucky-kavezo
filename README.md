@@ -37,7 +37,7 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
   <img src="docs/phone_kavefajtak_wireframe.png" alt="Kép 2" style="height: 100%; width: 25%; object-fit: cover;">
 </p>
 
-
+---
 ## 🔧 Telepítés és futtatás
 1. Klónozd a projektet:
    ```bash
