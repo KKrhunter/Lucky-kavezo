@@ -19,8 +19,8 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 - **JavaScript**: Interaktív elemek és dinamikus funkciók implementálásához.
 
 ---
-##🖥️ Drótváz
-**Főoldal**
+##🖥️ Drótváz ##
+- **Főoldal**
 
 <p align="center" style="display: flex; justify-items: center; justify-content: center; justify-self: center; gap: 500px; height: 200px;">
   <img src="docs/desktop_fooldal__wireframe.png" alt="Kép 1" style="height: 100%;width: 60%; object-fit: cover; margin-right: 100px;">
@@ -30,7 +30,7 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 <br>
 <br>
 
-**Sütemények és Kávéfajták**
+- **Sütemények és Kávéfajták**
 
 <p align="center" style="display: flex; justify-items: center; justify-content: center; justify-self: center; gap: 500px; height: 200px;">
   <img src="docs/desktop_kavefajtak_wireframe.png" alt="Kép 1" style="height: 100%;width: 60%; object-fit: cover; margin-right: 100px;">
