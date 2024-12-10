@@ -22,8 +22,8 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 ## Drótváz
 
 <p align="center">
-  <img src="" alt="" width="45%">
-  <img src="" alt="" width="45%">
+  <img src="docs/desktop_fooldal__wireframe.png" alt="" width="45%">
+  <img src="docs/phone_fooldal__wireframe.png" alt="" width="45%">
 </p>
 
 
