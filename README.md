@@ -18,7 +18,8 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 - **HTML5**: A weboldal alapstruktúrájához.
 - **CSS3**: A vizuális megjelenés kialakításához.
 - **JavaScript**: Interaktív elemek és dinamikus funkciók implementálásához.
-- **Trello**: A projekt dokumentálásához.
+- **Trello**: A projekt dokumentálásához.ű
+- **Teams** : Kommunikációs és file megosztásos célokból
 
 ---
 ## 🖥️ Drótváz
