@@ -2,11 +2,11 @@ https://wireframe.cc
 # Lucky kávézó #
 
 
-# Drótváz #
+## Drótváz
 
 <p align="center">
-  <img src="image1_url" alt="" width="45%">
-  <img src="image2_url" alt="" width="45%">
+  <img src="" alt="" width="45%">
+  <img src="" alt="" width="45%">
 </p>
 
 
