@@ -1,7 +1,7 @@
-# Lucky kávézó
+# Lucky kávézó #
 
 
-Drótváz
+# Drótváz #
 
 Főoldal
 ![Képernyőkép 2024-12-10 131623](https://github.com/user-attachments/assets/53918c12-ac82-45aa-9191-3a8c955ef218)
