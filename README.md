@@ -8,12 +8,12 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 
 ## 🚀 Célok
 - Friss, modern és reszponzív dizájn létrehozása.
-- Jobb felhasználói élmény biztosítása intuitív navigációval.
+- Jobb felhasználói élmény biztosítása interaktiv navigációval.
 - JavaScript alapú interaktív funkciók bevezetése (pl. dinamikus menük, foglalási rendszer).
 
 ---
 
-## 🛠️ Technológiák
+## 🛠️ Használt programozásinyelvek
 - **HTML5**: A weboldal alapstruktúrájához.
 - **CSS3**: A vizuális megjelenés kialakításához.
 - **JavaScript**: Interaktív elemek és dinamikus funkciók implementálásához.
@@ -22,7 +22,7 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 ## Drótváz
 
 <p align="center">
-  <img src="docs/desktop_fooldal__wireframe.png" alt="" width="45%">
+  <img src="docs/desktop_fooldal__wireframe.png" alt="" width="45%" height="auto">
   <img src="docs/phone_fooldal_wireframe.png" alt="" width="45%">
 </p>
 
