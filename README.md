@@ -20,12 +20,12 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 
 ---
 ## Drótváz
+Főoldal
 
-<p align="center">
-  <img src="docs/desktop_fooldal__wireframe.png" alt="" width="45%" height="auto">
-  <img src="docs/phone_fooldal_wireframe.png" alt="" width="45%">
+<p align="center" style="display: flex; justify-content: center; gap: 10px; height: 200px;">
+  <img src="docs/desktop_fooldal__wireframe.png" alt="Kép 1" style="height: 100%; object-fit: cover;">
+  <img src="docs/phone_fooldal_wireframe.png" alt="Kép 2" style="height: 100%; object-fit: cover;">
 </p>
-
 
 
 Sütemények és Kávéfajták
