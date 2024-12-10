@@ -1,19 +1,5 @@
 https://wireframe.cc
-# Lucky kávézó #
-
-
-## Drótváz
-
-<p align="center">
-  <img src="" alt="" width="45%">
-  <img src="" alt="" width="45%">
-</p>
-
-
-
-Sütemények és Kávéfajták
-
-# Kávézó Weboldal - [Projekt neve]
+# Lucky kávézó 
 
 ## 📖 Leírás
 Ez a projekt egy kávézó weboldalának felújítására irányul, amely magában foglalja a modern webdizájn elemek integrálását, a HTML és CSS optimalizálását, valamint JavaScript funkciók hozzáadását a felhasználói élmény javítása érdekében.
@@ -33,6 +19,19 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 - **JavaScript**: Interaktív elemek és dinamikus funkciók implementálásához.
 
 ---
+## Drótváz
+
+<p align="center">
+  <img src="" alt="" width="45%">
+  <img src="" alt="" width="45%">
+</p>
+
+
+
+Sütemények és Kávéfajták
+
+
+
 
 ## 🔧 Telepítés és futtatás
 1. Klónozd a projektet:
