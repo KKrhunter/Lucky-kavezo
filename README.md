@@ -6,8 +6,8 @@ Ez a projekt a Lucky Kávézó weboldalának felújítására irányul, amely ma
 ---
 
 ## 🚀 Célok
-- Friss, modern és reszponzív dizájn létrehozása.
 - Weboldal optimalizálása
+- Friss, modern és reszponzív dizájn létrehozása.
 - Jobb felhasználói élmény biztosítása interaktiv navigációval.
 - JavaScript alapú interaktív funkciók bevezetése (pl. dinamikus menük).
 
