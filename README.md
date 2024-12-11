@@ -1,7 +1,7 @@
 # Lucky kávézó 
 
 ## 📖 Leírás
-Ez a projekt egy kávézó weboldalának felújítására irányul, amely magában foglalja a modern webdizájn elemek integrálását, a HTML és CSS optimalizálását, valamint JavaScript funkciók hozzáadását a felhasználói élmény javítása érdekében.
+Ez a projekt a Lucky Kávézó weboldalának felújítására irányul, amely magában foglalja a modern webdizájn elemek integrálását, a HTML és CSS optimalizálását, valamint JavaScript funkciók hozzáadását a felhasználói élmény javítása érdekében.
 
 ---
 
