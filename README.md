@@ -8,7 +8,7 @@ Ez a projekt egy kávézó weboldalának felújítására irányul, amely magáb
 ## 🚀 Célok
 - Friss, modern és reszponzív dizájn létrehozása.
 - Jobb felhasználói élmény biztosítása interaktiv navigációval.
-- JavaScript alapú interaktív funkciók bevezetése (pl. dinamikus menük, foglalási rendszer).
+- JavaScript alapú interaktív funkciók bevezetése (pl. dinamikus menük).
 
 ---
 
