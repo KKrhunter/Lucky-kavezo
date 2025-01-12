@@ -310,6 +310,15 @@ hr {
 }
 hr {
     display: none;
+} 
+.kozep {
+    justify-content: center;
+        display: flex;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
 }
 }
 .meret{
