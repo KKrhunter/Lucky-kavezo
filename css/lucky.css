@@ -91,6 +91,14 @@ a:hover{
     top: 10px;
     right: 20px;    
 }
+.blog_resz1 {
+    margin-left: -15%;
+}
+
+.blog_resz2 {
+    margin-left: 20%;
+}
+
 
 .footer{
     background-color: #8c6e63;
@@ -261,6 +269,13 @@ footer li>img{
     .navbar-dark {
         margin-left: 0%;
     }
+    .blog_resz1 {
+    margin-left: 0%;
+}
+
+.blog_resz2 {
+    margin-left: 0%;
+}
 }
 .meret{
     font-size: 22px;
