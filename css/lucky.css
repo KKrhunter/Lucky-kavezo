@@ -271,10 +271,11 @@ footer li>img{
     }
     .blog_resz1 {
     margin-left: 0%;
+    align-content: center;
 }
-
 .blog_resz2 {
     margin-left: 0%;
+    align-content: center;
 }
 }
 .meret{
