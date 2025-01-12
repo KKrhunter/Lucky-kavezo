@@ -126,15 +126,22 @@ footer li>img{
 
 
 .blog-img1 {
+    width: 350px;
     border-radius: 15px 15px 15px 0px;
     border: 0px solid black;
     box-shadow: -5px 5px black;
 }
 
 .blog-img2 {
-    border-radius: 15px 15px 15px 0px;
+    width: 350px;
+    border-radius: 15px 15px 0px 15px;
     border: 0px solid black;
-    box-shadow: -5px 5px black;
+    box-shadow: 5px 5px black;
+}
+hr {
+    width: 85%;
+    border: 1.5px solid gray;
+    border-radius: 20px;
 }
 
 /* valasztás néven a főoldalon a kávé és süteményes gombra vonatkozó változtatásokat értem*/
