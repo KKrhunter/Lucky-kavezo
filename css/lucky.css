@@ -115,9 +115,18 @@ footer li>img{
 .img-fluid{
     border-radius: 10px;
 }
-.blog-img {
-    border-radius: 4px;
-    border: 1px solid #1f5b25;
+
+
+.blog-img1 {
+    border-radius: 15px 15px 15px 0px;
+    border: 0px solid black;
+    box-shadow: -5px 5px black;
+}
+
+.blog-img2 {
+    border-radius: 15px 15px 15px 0px;
+    border: 0px solid black;
+    box-shadow: -5px 5px black;
 }
 
 /* valasztás néven a főoldalon a kávé és süteményes gombra vonatkozó változtatásokat értem*/
