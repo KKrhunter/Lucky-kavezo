@@ -185,6 +185,21 @@ footer li>img{
     border: 3px solid white;
 }
 
+.btn-feliratkozas {
+    padding: 0px 20px;
+    background-color: burlywood;
+    color: black;  
+    border-radius: 0px 15px 15px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-feliratkozas:hover {
+    background-color: burlywood;
+    border: 3px solid black;
+}
+
 /* Navbar kiválasztás animáció*/
 .kivalasztas {
     padding: 5px;
